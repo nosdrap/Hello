@@ -2,7 +2,7 @@ This is linux program made with python3 and shell commands.
 
 Made and tested in Linux Ubuntu.
 
-The program will create simple Hello World file.
+The program will create simple Hello World file. It does not rewrite any existing files with same name.
 
 Manual:
 
@@ -32,3 +32,13 @@ any other cmd commands - cat,nano,rm,etc...
 	
 	 hello filename.extention nano
 	 hello filename.extention rm
+	 
+It executes only single command (atm):
+
+	hello test.java nano exe
+
+will run only:
+	
+	nano test.java
+
+commands are executed as command filename.extention after they were created or they already exists
