@@ -1,10 +1,14 @@
-This is linux program made with python3 and shell commands
+This is linux program made with python3 and shell commands.
 
-the program will create simple Hello World file
+Made and tested in Linux Ubuntu.
+
+The program will create simple Hello World file.
 
 Manual:
 
-use path while in directory Hello to add hello command to PATH
+Use path to add hello command to PATH.
+
+If you are in Hello directory use:
 
 	./dist/hello path
 
@@ -12,23 +16,19 @@ general use:
 
 	hello filename.extention command
 	
-filename: 
-
-	any filename including path to the filename
+filename: any filename including path to the filename
 	
-	example: ./test/HelloWorld.py
+	hello ./test/HelloWorld.py
 	
 supported extentions: py,c,cpp,html,php,java,sh
 	
 command: 
 
-	exe 
+	hello filename.extention exe 
 	
 - runs the file, supported extentions: py,c,cpp,sh,java,html
 	
-any other cmd commands - 
+any other cmd commands - cat,nano,rm,etc...
 	
-	cat,nano,rm,etc...
-	
-	 
-
+	 hello filename.extention nano
+	 hello filename.extention rm
