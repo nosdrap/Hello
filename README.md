@@ -4,7 +4,9 @@ the program will create simple Hello World file
 
 Manual:
 
-use "./dist/hello path" while in directory Hello to add hello command to PATH
+use path while in directory Hello to add hello command to PATH
+
+	./dist/hello path
 
 general use: 
 
@@ -16,15 +18,17 @@ filename:
 	
 	example: ./test/HelloWorld.py
 	
-extention: 
-
-	supported extentions: py,c,cpp,html,php,java,sh
+supported extentions: py,c,cpp,html,php,java,sh
 	
 command: 
 
-	exe - runs the file, supported extentions: py,c,cpp,sh,java,html
+	exe 
 	
-	any other cmd commands - cat,nano,rm,etc...
+- runs the file, supported extentions: py,c,cpp,sh,java,html
+	
+any other cmd commands - 
+	
+	cat,nano,rm,etc...
 	
 	 
 
